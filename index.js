@@ -1,11 +1,14 @@
-function divide(num1 = '2000', num2 = '100'){
-  return divide = num1/num2;
+// function expression called divide that divides 2000 by 100
+const divide = () => {
+  return 2000 / 100;
 }
 
-const square = function(num){
+// arrow function called square that takes one parameter and multiplies it times itself
+const square = (num) => {
   return num * num;
 }
 
-const add = function(num1, num2){
-  return num1 + num2;
+// arrow function called add that takes two parameters and adds them together
+const add = (a, b) => {
+  return a + b;
 }
